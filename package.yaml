@@ -1,7 +1,7 @@
 name:                coordinate 
 version:             0.1.2
 license:             BSD3
-license-file:        other-licence.md
+license-file:        LICENCE
 author:              "Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>"
 maintainer:          "Tony Morris"
 copyright:           "Copyright (C) 2013-2016 NICTA Ltd"
@@ -34,19 +34,19 @@ library:
     - lens # >= 4.0
     - radian #>= 0.0.4
     - transformers
+    - tagged
       #- optional #>= 0.0.1
     default-extensions:
     - "NoImplicitPrelude"
     ghc-options:
     - "-Wall"
     exposed-modules:
-    - Data.Geodetic
-    - Data.Geodetic.ECEF
-    - Data.Geodetic.Ellipsoid
-    - Data.Geodetic.EllipsoidReaderT
-    - Data.Geodetic.HasDoubles
-    - Data.Geodetic.LLH
-    - Data.Geodetic.LL
-    - Data.Geodetic.Sphere
-    - Data.Geodetic.XY
+    - Data.Geo.Coordinate
+    - Data.Geo.Coordinate.Coordinate
+    - Data.Geo.Coordinate.DegreesLatitude
+    - Data.Geo.Coordinate.DegreesLongitude
+    - Data.Geo.Coordinate.Latitude
+    - Data.Geo.Coordinate.Longitude
+    - Data.Geo.Coordinate.Minutes
+    - Data.Geo.Coordinate.Seconds
 
