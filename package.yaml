@@ -1,0 +1,52 @@
+name:                coordinate 
+version:             0.1.2
+license:             BSD3
+license-file:        LICENCE
+author:              "Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>"
+maintainer:          "Tony Morris"
+copyright:           "Copyright (C) 2013-2016 NICTA Ltd"
+synopsis:            "A representation of latitude and longitude"
+category:            "Development"
+build-type:          Custom
+homepage:            "https://github.com/NICTA/coordinate"
+bug-reports:         "https://github.com/NICTA/coordinate/issues"
+
+extra-source-files:
+- changelog.md
+
+description:
+    <<http://i.imgur.com/Ns5hntl.jpg>>
+    .
+    A representation of latitude and longitude
+ 
+source-repository:
+    type: git
+    location: git@github.com:NICTA/coordinate.git
+
+
+#flag: "small_base"
+#description: "Choose the new, split-up base package"
+
+library:
+    source-dirs: src
+    dependencies:
+    - base >= 3 && < 5
+    - lens # >= 4.0
+    - radian #>= 0.0.4
+    - transformers
+    - tagged
+      #- optional #>= 0.0.1
+    default-extensions:
+    - "NoImplicitPrelude"
+    ghc-options:
+    - "-Wall"
+    exposed-modules:
+    - Data.Geo.Coordinate
+    - Data.Geo.Coordinate.Coordinate
+    - Data.Geo.Coordinate.DegreesLatitude
+    - Data.Geo.Coordinate.DegreesLongitude
+    - Data.Geo.Coordinate.Latitude
+    - Data.Geo.Coordinate.Longitude
+    - Data.Geo.Coordinate.Minutes
+    - Data.Geo.Coordinate.Seconds
+

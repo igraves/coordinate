@@ -1,5 +1,6 @@
 *~
 *#*
+*.swp
 
 # CABAL
 /dist
@@ -20,3 +21,4 @@
 # ctags
 TAGS
 
+.stack-work
