@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6bde92027aff0c41208e3ad7ccf4e5e4ff3914098bb14ca7f08f9ff0257c33ae
+-- hash: 90e9baacf25b977f4ad71e7bb2ae294b230e292c1fcd1b8d5a551aa10811fe0d
 
 name:           coordinate
 version:        0.1.2
@@ -18,13 +18,12 @@ maintainer:     Tony Morris
 copyright:      Copyright (C) 2013-2016 NICTA Ltd
 license:        BSD3
 license-file:   LICENCE
-build-type:     Custom
+build-type:     Simple
 extra-source-files:
     changelog.md
 
 library
   exposed-modules:
-      Data.Geo.Coordinate
       Data.Geo.Coordinate.Coordinate
       Data.Geo.Coordinate.DegreesLatitude
       Data.Geo.Coordinate.DegreesLongitude
@@ -33,15 +32,6 @@ library
       Data.Geo.Coordinate.Minutes
       Data.Geo.Coordinate.Seconds
   other-modules:
-      Data.Geodetic
-      Data.Geodetic.ECEF
-      Data.Geodetic.Ellipsoid
-      Data.Geodetic.EllipsoidReaderT
-      Data.Geodetic.HasDoubles
-      Data.Geodetic.LL
-      Data.Geodetic.LLH
-      Data.Geodetic.Sphere
-      Data.Geodetic.XY
       Paths_coordinate
   hs-source-dirs:
       src
