@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 90e9baacf25b977f4ad71e7bb2ae294b230e292c1fcd1b8d5a551aa10811fe0d
+-- hash: 75b1af05136cdba4854ba696195b5af98811e9d0d3e703d53a7842f8ab874c18
 
 name:           coordinate
 version:        0.1.2
@@ -24,6 +24,7 @@ extra-source-files:
 
 library
   exposed-modules:
+      Data.Geo.Coordinate
       Data.Geo.Coordinate.Coordinate
       Data.Geo.Coordinate.DegreesLatitude
       Data.Geo.Coordinate.DegreesLongitude

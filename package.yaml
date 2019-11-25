@@ -42,6 +42,7 @@ library:
     ghc-options:
     - "-Wall"
     exposed-modules:
+    - Data.Geo.Coordinate
     - Data.Geo.Coordinate.Coordinate
     - Data.Geo.Coordinate.DegreesLatitude
     - Data.Geo.Coordinate.DegreesLongitude
