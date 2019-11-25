@@ -4,10 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 75b1af05136cdba4854ba696195b5af98811e9d0d3e703d53a7842f8ab874c18
+-- hash: 89bb7777b96e083d4ad90c8c1903168501ea836dc92147ee9a7984ddb41cb173
 
 name:           coordinate
-version:        0.1.2
+version:        0.3.0
 synopsis:       A representation of latitude and longitude
 description:    <<http://i.imgur.com/Ns5hntl.jpg>> . A representation of latitude and longitude
 category:       Development
