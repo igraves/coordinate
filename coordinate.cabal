@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6b7125aced1a309e235478f5375414560ff0af67bb6d9cbcd2b0eb8c665ba744
+-- hash: 6bde92027aff0c41208e3ad7ccf4e5e4ff3914098bb14ca7f08f9ff0257c33ae
 
 name:           coordinate
 version:        0.1.2
@@ -33,8 +33,16 @@ library
       Data.Geo.Coordinate.Minutes
       Data.Geo.Coordinate.Seconds
   other-modules:
+      Data.Geodetic
+      Data.Geodetic.ECEF
+      Data.Geodetic.Ellipsoid
+      Data.Geodetic.EllipsoidReaderT
+      Data.Geodetic.HasDoubles
+      Data.Geodetic.LL
+      Data.Geodetic.LLH
+      Data.Geodetic.Sphere
+      Data.Geodetic.XY
       Paths_coordinate
->>>>>>> forking-from-pre-papa
   hs-source-dirs:
       src
   default-extensions: NoImplicitPrelude

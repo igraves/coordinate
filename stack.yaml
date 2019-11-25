@@ -18,8 +18,8 @@
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
 # resolver: nightly-2019-06-21
-resolver: lts-13.25
 #resolver: ghc-8.6.2
+resolver: nightly-2019-11-24
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -45,7 +45,8 @@ packages:
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
 extra-deps: 
-- radian-0.1@sha256:35e642430f751cfbbefc39c5b82bab6f63834d65f8fc3f71d0e68b97f30973d6,1944
+- git: https://github.com/igraves/radian.git
+  commit: 6a5db78b87ca3718a5b014d871baf0a77d536a69
 # Override default flag values for local packages and extra-deps
 # flags: {}
 
